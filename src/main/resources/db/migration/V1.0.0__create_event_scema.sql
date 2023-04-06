@@ -1,0 +1,31 @@
+--CREATE TABLE IF NOT EXISTS `event` (
+--    `id` int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+--    `name` varchar(20),
+--    `datetime` TIMESTAMP WITH TIME ZONE
+--);
+--
+--CREATE TABLE IF NOT EXISTS `users` (
+--    `id` int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+--    `email` varchar(255),
+--    `fullName` varchar(255),
+--    `password` varchar(255)
+--);
+--
+--CREATE TABLE IF NOT EXISTS `vendors` (
+--    `id` int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+--    `vendor_location` varchar(255),
+--    `vendor_name` varchar(255),
+--    `vendor_type` varchar(255),
+--    `vendor_id` varchar(255),
+--    `userUUID` varchar(255)
+--);
+--
+--CREATE TABLE IF NOT EXISTS `messaging` (
+--    `id` int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+--    `chatId` varchar(255),
+--    `vendorId` varchar(255),
+--    `userId` varchar(255),
+--    `sender` varchar(255),
+--    `message` varchar(255),
+--    `uuid` varchar(255)
+--);
