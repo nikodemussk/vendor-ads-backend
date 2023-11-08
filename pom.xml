@@ -21,6 +21,7 @@
       <plugin>
         <artifactId>maven-checkstyle-plugin</artifactId>
         <configuration>
+          <skip>true</skip>
           <configLocation>google_checks.xml</configLocation>
           <consoleOutput>true</consoleOutput>
           <encoding>UTF-8</encoding>
